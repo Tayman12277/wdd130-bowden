@@ -1,0 +1,37 @@
+.paddles {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.paddles a {
+    text-decoration: none;
+    color: black;
+}
+.selkrik, .joola, .onix, .carbon, .friday, .ronbus  {
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    display: grid;
+    grid-template-columns: .5fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+.selkrik img, .joola img, .onix img, .carbon img, .friday img, .ronbus img  {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin: auto;
+}
+
+.selkrik h2, .joola h2, .onix h2, .carbon h2, .friday h2, .ronbus h2  {
+    margin: auto;
+}
+
+.selkrik p, .joola p, .onix p, .carbon p, .friday p, .ronbus p  {
+    margin: auto;
+    text-align: center;
+}
+
+.selkrik button, .joola button, .onix button, .carbon button, .friday button, .ronbus button  {
+    margin: auto;
+}
